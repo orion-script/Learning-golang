@@ -274,17 +274,17 @@ func circleArea(r float64) float64 {
 	return math.Pi * r * r
 }
 
-// func main() {
-// 	sayGreeting("mario")
-// 	sayGreeting("luigi")
-// 	sayBye("mario")
+func main() {
+	sayGreeting("mario")
+	sayGreeting("luigi")
+	sayBye("mario")
 
-// 	cycleNames([]string{"cloud", "barret", "tifa"}, sayGreeting)
-// 	cycleNames([]string{"cloud", "barret", "tifa"}, sayBye)
+	cycleNames([]string{"cloud", "barret", "tifa"}, sayGreeting)
+	cycleNames([]string{"cloud", "barret", "tifa"}, sayBye)
 
-// 	a1 := circleArea(10.5)
-// 	a2 := circleArea(15)
+	a1 := circleArea(10.5)
+	a2 := circleArea(15)
 
-// 	fmt.Println(a1, a2)
-// 	fmt.Printf("circle 1 area is %0.3f & circle 2 area is %0.3f \n", a1, a2)
-// }
+	fmt.Println(a1, a2)
+	fmt.Printf("circle 1 area is %0.3f & circle 2 area is %0.3f \n", a1, a2)
+}
